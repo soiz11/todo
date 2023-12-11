@@ -17,7 +17,7 @@ const NewTodo = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/todos", {
+      const res = await fetch("/api/todos", {
         method: "POST",
         headers: {
           "content-type": "application/json",

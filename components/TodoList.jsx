@@ -6,7 +6,7 @@ import { HiPencilAlt } from "react-icons/hi";
 const getTodos = async () => {
   /**/
   try {
-    const res = await fetch("http://localhost:3000/api/todos", {
+    const res = await fetch("/api/todos", {
       cache: "no-store",
     });
 
