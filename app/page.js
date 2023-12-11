@@ -1,11 +1,10 @@
-import TopicList from "@/components/TopicList";
+import TodoList from "@/components/TodoList";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <TopicList />
-      <TopicList />
+      <TodoList />
     </>
   );
 }

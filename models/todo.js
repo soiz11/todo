@@ -1,4 +1,4 @@
-import mongoose, { Mongoose, Schema } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const todoSchema = new Schema(
   {
@@ -12,4 +12,4 @@ const todoSchema = new Schema(
 
 const Todo = mongoose.models.Todo || mongoose.model("Todo", todoSchema);
 
-export default Topic;
+export default Todo;

@@ -12,7 +12,7 @@ const Navbar = () => {
       </Link>
       <Link
         className="text-slate-900 bg-white py-1 px-2 rounded flex"
-        href={"/newTopic"}
+        href={"/newTodo"}
       >
         New Note
       </Link>

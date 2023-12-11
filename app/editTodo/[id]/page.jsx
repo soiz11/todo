@@ -1,10 +1,10 @@
-import EditTopicForm from "@/components/EditTopicForm";
+import EditTodoForm from "@/components/EditTodoForm";
 import React from "react";
 
 const EditTopic = () => {
   return (
     <div>
-      <EditTopicForm />
+      <EditTodoForm />
     </div>
   );
 };

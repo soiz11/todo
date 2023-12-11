@@ -1,6 +1,6 @@
 import React from "react";
 
-const EditTopicForm = () => {
+const EditTodoForm = () => {
   return (
     <div>
       <form className="flex flex-col gap-2 mx-8 rounded-xl">
@@ -22,4 +22,4 @@ const EditTopicForm = () => {
   );
 };
 
-export default EditTopicForm;
+export default EditTodoForm;
