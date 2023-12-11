@@ -22,8 +22,9 @@ const EditTodoForm = ({ id, title, description }) => {
       if (!res.ok) {
         throw new Error("Failed to update todo");
       }
-      router.refresh();
+
       router.push("/");
+      router.refresh();
     } catch (err) {
       console.log(err);
     }
