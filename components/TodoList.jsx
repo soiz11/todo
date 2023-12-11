@@ -34,7 +34,7 @@ const TodoList = async () => {
           </div>
 
           <div className="flex gap-2">
-            <RemoveBtn />
+            <RemoveBtn id={todo._id} />
             <Link href={`/editTodo/${todo._id}`}>
               <HiPencilAlt size={24} />
             </Link>
